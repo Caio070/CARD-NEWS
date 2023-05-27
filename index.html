@@ -5,20 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/card.css">
+    <script src="/src/components/CardNews.js" defer></script>
     <title>Portal de Notícias</title>
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>By Caio</span>
-                <h1>Hamilton iguala recorde histórico.</h1>
-                <p>Lewis Hamilton conquista sua 94ª vitória e garante seu 7º título mundial no GP da Turquia de 2020.</p>
-            </div>
-            <div class="card__right">
-                <img class="imagem" src="./assets/hamilton.jpg" alt="">
-            </div>
-        </div>
+        <card-news
+            autor="Caio"
+            title="Hamilton iguala recorde histórico."
+            photo="assets/hamilton.jpg"
+            content="Lewis Hamilton conquista sua 94ª vitória e garante seu 7º título mundial no GP da Turquia de   2020."
+        ></card-news>
     </div>
 </body>
 </html>
